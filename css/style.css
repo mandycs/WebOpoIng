@@ -2,10 +2,18 @@
     border: 1px solid black;
 }
 
-body{
+body,html{
+    height: 100%;
     padding: 0;
     margin: 0;
-    font-family: ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    height: 100%;
+}
+
+section{
+    height: 100%;
 }
 .header-container {
     width: 100%;
@@ -38,9 +46,39 @@ body{
 
 .Section-1{
     display: flex;
-    flex-direction: column;
+    padding: 20px;
+    flex-direction: row;
+    background-color: #93BFB7;
+    color: white;
 }
 
+.Tittle-paragraph{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    flex-direction: column;
+
+}
+.Tittle{
+    justify-content: center;
+}
+.Paragraph{
+    display: flex;
+}
+
+.Paragraph p{
+    display: flex;
+}
+
+.Guardia{
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+.Guardia img{
+    width: 200px;;
+}
 a{
     color: white;
     text-decoration: none;
