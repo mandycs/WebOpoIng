@@ -1,86 +1,89 @@
 * {
-    border: 1px solid black;
-}
-
-body,html{
-    height: 100%;
-    padding: 0;
+    box-sizing: border-box;
     margin: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-main{
-    height: 100%;
+    padding: 0;
 }
 
-section{
+body,
+html {
     height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .header-container {
-    width: 100%;
-    border-color: red;
-    display: flex;
     background-color: #387373;
     color: white;
-}
-.nav-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-.nav-container ul{
-    display: flex;
-    justify-content: center;
+    padding: 10px;
 }
 
-.nav-container li{
-    display: flex;
-    margin: 0 10px;
+.nav-container ul {
     list-style: none;
+    display: flex;
 }
-.logo img{
-    width: 50px;
-    border-radius: 50%;
+
+.nav-container li {
+    margin: 0 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 70px;
+}
+
+.logo img {
+    max-width: 100%;
     height: auto;
+    border-radius: 50%;
     margin-left: 10px;
     padding: 5px;
 }
 
-.Section-1{
-    display: flex;
-    padding: 20px;
-    flex-direction: row;
+
+.Section-1 {
     background-color: #93BFB7;
     color: white;
-}
-
-.Tittle-paragraph{
     display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
+    padding: 20px;
+}
+
+.Tittle-paragraph {
+    width: 50%;
     margin: 0 20px;
+    display: flex;
     flex-direction: column;
-
-}
-.Tittle{
     justify-content: center;
-}
-.Paragraph{
-    display: flex;
-}
-
-.Paragraph p{
-    display: flex;
-}
-
-.Guardia{
-    display: flex;
-    width: auto;
     align-items: center;
 }
-.Guardia img{
-    width: 200px;;
+
+.Tittle {
+    font-size: 2em;
+    /* Cambia el tamaño del título usando em o rem */
+    margin-right: 10px;
 }
-a{
-    color: white;
+
+.Paragraph {
+    font-size: 1.5em;
+    /* Cambia el tamaño del párrafo usando em o rem */
+}
+
+.Guardia {
+    display: flex;
+    width: 50%;
+}
+
+.Guardia img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-container a {
     text-decoration: none;
-    white-space: nowrap;
+    color: white;
 }
