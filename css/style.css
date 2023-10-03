@@ -83,7 +83,44 @@ html {
     height: auto;
 }
 
-.header-container a {
+a {
     text-decoration: none;
     color: white;
+}
+
+/* Sección 2 Estilos */
+
+.Section-2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+    background-color: #93BFB7;
+    color: white;
+}
+.Curso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Curso img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px;
+}
+.Curso p{
+    background-color: #387373;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93BFB7;
 }
