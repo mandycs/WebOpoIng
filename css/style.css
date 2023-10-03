@@ -28,6 +28,31 @@ html {
     margin: 0 10px;
 }
 
+
+/* Estilos para el submenú */
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+
+.dropdown .submenu li {
+    padding: 10px;
+}
+
+.dropdown .submenu a {
+    text-decoration: none;
+    color: #333;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -90,7 +115,7 @@ a {
 
 /* Sección 2 Estilos */
 
-.Section-2-container{
+.Section-2-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -100,25 +125,28 @@ a {
     background-color: #93BFB7;
     color: white;
 }
-.Curso{
+
+.Curso {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.Curso img{
+
+.Curso img {
     max-width: 30%;
     height: auto;
     border-radius: 50%;
     margin: 10px;
 }
-.Curso p{
+
+.Curso p {
     background-color: #387373;
     padding: 10px 20px;
     border-radius: 10px;
     font-weight: bold;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
