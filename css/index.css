@@ -1,16 +1,14 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body,
 html {
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #93BFB7;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilos para el header */
 .header-container {
     background-color: #387373;
     color: white;
@@ -68,6 +66,7 @@ html {
     padding: 5px;
 }
 
+/* Estilos para sección */
 
 .Section-1 {
     background-color: #93BFB7;
