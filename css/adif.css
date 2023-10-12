@@ -67,96 +67,91 @@ html {
     padding: 5px;
 }
 
-/* Estilos para sección */
-
-.Section-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.Tittle-paragraph {
-    width: 50%;
-    margin: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Tittle {
-    font-size: 2em;
-    /* Cambia el tamaño del título usando em o rem */
-    margin-right: 10px;
-}
-
-.Paragraph {
-    font-size: 1.5em;
-    /* Cambia el tamaño del párrafo usando em o rem */
-}
-
-.Guardia {
-    display: flex;
-    width: 50%;
-}
-
-.Guardia img {
-    max-width: 100%;
-    height: auto;
-}
-
 a {
     text-decoration: none;
     color: white;
 }
 
-/* Sección 2 Estilos */
+/* Estilos sección 1 */
 
-.Section-2-container {
+.Section-1-Container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
 }
 
-.Curso {
-    display: flex;
+/* Estilos Tittle-Paragraph */
+
+.Tittle-Paragraph {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: center;
-}
-
-.Curso img {
-    max-width: 30%;
-    height: auto;
-    border-radius: 50%;
-    margin: 10px;
-}
-
-.Curso p {
-    background-color: #387373;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-/* Estilo Sección 3 */
-
-.Testimonios-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     padding: 20px;
-    height: 100%;
+    text-align: center;
+    width: 50%;
 }
 
+.Tittle-Paragraph h1 {
+    font-size: 2em;
+}
+
+.Tittle-Paragraph p {
+    font-size: 1.5em;
+}
+
+/* Estilos muñeco */
+
+.Muneco {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+/* Estilos de la plataforma */
+
+.Section-2-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Paragraph-Img {
+    display: flex;
+    justify-content: spa;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.Paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.Plataforma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+/* Estilos para el footer */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #93BFB7;
+    color: #333;
 }
